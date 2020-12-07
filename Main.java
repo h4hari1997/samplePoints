@@ -42,6 +42,7 @@ public class Main {
                         group = createNewGroup();
                     } catch (GroupException e) {
                         System.out.println(e.getMessage());
+
                         break;
                     }
                     groupIdMap.put(group.getGroupId(), group);
